@@ -1,0 +1,12 @@
+name: "checkout"
+
+on:
+  push:
+    branches: [ master ]
+
+
+jobs:
+  nothing:
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v3
